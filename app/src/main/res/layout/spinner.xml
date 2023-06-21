@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/GreenCalendar.PassportText.Editor"
+    android:layout_width="match_parent"
+    tools:text="@string/watering_frequency" />

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GreenCalendar" />
+    
+    <style name="GreenCalendar.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/main_menu_option_appearance</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:elevation">@dimen/small_padding</item>
+        <item name="android:layout_marginBottom">@dimen/medium_padding</item>
+        <item name="android:padding">@dimen/medium_padding</item>
+    </style>
+    
+    <style name="GreenCalendar.Text">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+    <style name="GreenCalendar.TextOnMain">
+        <item name="android:textAppearance">@style/GreenCalendar.Text</item>
+        <item name="android:textSize">@dimen/head_text_size</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="maxLines">2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">@dimen/sub_medium_padding</item>
+    </style>
+    
+    <style name="GreenCalendar.Image">
+        <item name="android:background">@color/transparent</item>
+        <item name="tint">?attr/colorOnPrimary</item>
+        <item name="android:layout_width">@dimen/menu_image_size</item>
+        <item name="android:layout_height">@dimen/menu_image_size</item>
+    </style>
+    
+    <style name="GreenCalendar.PlantsPhotoAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/small_padding</item>
+    </style>
+
+    <style name="GreenCalendar.PlantsPhotoCardStyle">
+        <item name="android:layout_width">@dimen/menu_image_size</item>
+        <item name="android:layout_height">@dimen/menu_image_size</item>
+        <item name="shapeAppearance">@style/GreenCalendar.PlantsPhotoAppearance</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">?attr/colorPrimaryVariant</item>
+        <item name="android:contentDescription">@string/photo</item>
+    </style>
+
+    <style name="GreenCalendar.PassportContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/small_padding</item>
+        <item name="android:layout_marginBottom">@dimen/medium_padding</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/edit_text_style</item>
+    </style>
+
+    <style name="GreenCalendar.PassportText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textAppearance">@style/GreenCalendar.Text</item>
+        <item name="android:textSize">@dimen/plants_card_text_size</item>
+    </style>
+
+    <style name="GreenCalendar.PassportText.Editor">
+        <item name="android:textColorHint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+        <item name="android:autofillHints">no</item>
+    </style>
+
+    <style name="GreenCalendar.PassportText.Saved">
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="GreenCalendar.PassportEditIcon">
+        <item name="android:layout_width">@dimen/edit_text_icon_size</item>
+        <item name="android:layout_height">@dimen/edit_text_icon_size</item>
+        <item name="contentPadding">6dp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:tint">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="TextViewParametersOnPassport">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/GreenCalendar.Text</item>
+        <item name="android:textSize">@dimen/passport_parameters_text_size</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+    <style name="EditTextParametersOnPassport">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal">@dimen/sub_medium_padding</item>
+        <item name="android:paddingVertical">@dimen/small_padding</item>
+        <item name="android:textAppearance">@style/GreenCalendar.Text</item>
+        <item name="android:layout_marginTop">@dimen/medium_padding</item>
+        <item name="android:background">@drawable/edit_text_style</item>
+        <item name="layout_goneMarginTop">@dimen/medium_padding</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+        <item name="android:textColorHint">?attr/colorPrimary</item>
+        <item name="android:textSize">@dimen/passport_parameters_text_size</item>
+    </style>
+
+    <style name="GreenCalendar.NavigationButtonStyle">
+        <item name="android:layout_width">@dimen/navigation_button_size</item>
+        <item name="android:layout_height">@dimen/navigation_button_size</item>
+        <item name="tint">?attr/colorOnPrimary</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="GreenCalendar.NavigationTextStyle">
+        <item name="android:textAppearance">@style/GreenCalendar.Text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMaxTextSize">@dimen/head_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginHorizontal">@dimen/navigation_button_size</item>
+        <item name="android:background">@color/transparent</item>
+
+    </style>
+
+</resources>

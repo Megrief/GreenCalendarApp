@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/GreenCalendar.Button"
+    android:layout_marginHorizontal="@dimen/medium_padding"
+    android:id="@+id/plants_card">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/plants_photo"
+        style="@style/GreenCalendar.PlantsPhotoCardStyle"
+        android:src="@drawable/heart_flower" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sub_medium_padding"
+        android:layout_gravity="center_vertical"
+        android:background="?attr/colorPrimaryVariant"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/plants_name"
+            style="@style/GreenCalendar.TextOnMain"
+            android:textSize="@dimen/plants_card_text_size"
+            android:text="@string/plants_name" />
+
+        <TextView
+            android:id="@+id/plants_type"
+            style="@style/GreenCalendar.TextOnMain"
+            android:textSize="@dimen/medium_text_size"
+            android:text="@string/plants_type" />
+
+        <TextView
+            android:id="@+id/plants_age"
+            style="@style/GreenCalendar.TextOnMain"
+            android:textSize="@dimen/medium_text_size"
+            android:text="@string/plants_age" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

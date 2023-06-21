@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/medium_padding"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/calendar"
+            style="@style/GreenCalendar.Button"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/GreenCalendar.Image"
+                android:layout_width="@dimen/head_image_size"
+                android:layout_height="@dimen/head_image_size"
+                android:layout_gravity="center"
+                android:contentDescription="@string/diary"
+                android:src="@drawable/calendar" />
+
+            <TextView
+                style="@style/GreenCalendar.TextOnMain"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/sub_medium_padding"
+                android:text="@string/diary"
+                android:textAlignment="center" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/plants"
+            style="@style/GreenCalendar.Button">
+
+            <ImageView
+                style="@style/GreenCalendar.Image"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/plants"
+                android:src="@drawable/plants" />
+
+            <TextView
+                style="@style/GreenCalendar.TextOnMain"
+                android:layout_gravity="center_vertical"
+                android:text="@string/plants" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/useful"
+            style="@style/GreenCalendar.Button">
+
+            <ImageView
+                style="@style/GreenCalendar.Image"
+                android:contentDescription="@string/useful"
+                android:src="@drawable/useful" />
+
+            <TextView
+                style="@style/GreenCalendar.TextOnMain"
+                android:layout_gravity="center_vertical"
+                android:text="@string/useful" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/chat"
+            style="@style/GreenCalendar.Button">
+
+            <ImageView
+                style="@style/GreenCalendar.Image"
+                android:contentDescription="@string/chat"
+                android:src="@drawable/chat" />
+
+            <TextView
+                style="@style/GreenCalendar.TextOnMain"
+                android:layout_gravity="center_vertical"
+                android:text="@string/chat" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

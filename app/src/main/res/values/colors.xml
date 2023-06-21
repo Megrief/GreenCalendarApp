@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1F1A06</color>
+    <color name="white">#F3F2DD</color>
+    <color name="primary_light">#768844</color>
+    <color name="primary_night">#1D3028</color>
+    <color name="on_primary_light">#B5F6EE5C</color>
+    <color name="on_primary_night">#B57B7D7E</color>
+    <color name="primary_variant_light">#786E3A</color>
+    <color name="primary_variant_night">#2E2620</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GreenCalendar</string>
+    <string name="diary">Дневник цветовода</string>
+    <string name="plants">Мои растения</string>
+    <string name="useful">Полезное</string>
+    <string name="chat">Чат</string>
+    <string name="photo">Фото растения</string>
+    <string name="plants_name">Имя: </string>
+    <string name="plants_age">Возраст: </string>
+    <string name="plants_type">Вид: </string>
+    <string name="back">Назад</string>
+    <string name="add">Добавить</string>
+    <string name="plant_passport">Паспорт растения</string>
+    <string name="plants_photo">Фотография растения</string>
+    <string name="save">Сохранить</string>
+    <string name="events">События</string>
+    <string name="watering_frequency">Частота полива: </string>
+    <string name="input_plants_type">Введите вид растения</string>
+    <string name="input_planting_date">Введите дату посадки</string>
+    <string name="input_plants_name">Введите имя растения</string>
+    <string name="care">Уход за растением</string>
+    <string name="input_watering_frequency">Введите частоту полива</string>
+</resources>

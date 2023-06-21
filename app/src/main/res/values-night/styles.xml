@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GreenCalendar" />
+    <style name="GreenCalendar.PlantsPhotoCardStyle">
+        <item name="android:layout_width">@dimen/menu_image_size</item>
+        <item name="android:layout_height">@dimen/menu_image_size</item>
+        <item name="shapeAppearance">@style/GreenCalendar.PlantsPhotoAppearance</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:foreground">#9C1D3028</item>
+        <item name="android:background">?attr/colorPrimaryVariant</item>
+        <item name="android:contentDescription">@string/photo</item>
+    </style>
+    <style name="GreenCalendar.PlantsPhotoAppearance" >
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/small_padding</item>
+    </style>
+</resources>
