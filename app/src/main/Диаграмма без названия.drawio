@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" modified="2023-07-27T06:29:13.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0 (Edition Yx 05)" etag="iPC5WhPJFg_KT8Tp15NG" version="21.6.3" type="github">
+  <diagram name="Страница 1" id="7uTTjkgEn_iJeQhSLcca">
+    <mxGraphModel dx="2323" dy="2561" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E0E0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-60" width="810" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#333333;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-10" width="140" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-3" value="Entities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3EDFF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="820" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbcccc;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-730" width="810" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-6" value="Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-9" value="Presentation&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-10" value="Plant" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-15" target="wj-apMyxxMSm6NWcpxg7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-15" value="Event" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-20" target="wj-apMyxxMSm6NWcpxg7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-20" value="Event&lt;br&gt;type" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-22" target="wj-apMyxxMSm6NWcpxg7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-22" value="Plant&lt;br&gt;type" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.011;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-25" target="wj-apMyxxMSm6NWcpxg7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="600" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-28" value="Use cases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-10" width="600" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-30" value="Repositories" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-31" value="Get Plant useCase" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-32" value="Search Plant useCase" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-33" value="Save Plant useCase" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-34" value="Add Event useCase" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-35" value="Get Event useCase" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="690" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-37" value="Ask repository to get Plant from somewhere" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-38" value="Ask repository to search for&amp;nbsp; Plants somewhere" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-40" target="wj-apMyxxMSm6NWcpxg7-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-69" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-40" target="wj-apMyxxMSm6NWcpxg7-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-40" value="Storage repository" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="430" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-66" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-41" target="wj-apMyxxMSm6NWcpxg7-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-41" value="Search Repository" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="510" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-42" value="Ask repository to save Plant somewhere" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-43" value="Repository for work with data layer. Contains methods: save() and get()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="90" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-44" value="Repository for search. Contains one method: search()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-46" value="Domain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-47" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="910" width="740" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-50" value="Activities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-90" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.487;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-51" target="wj-apMyxxMSm6NWcpxg7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-51" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-330" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-52" value="SharedPrefs storage repo impl" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacing=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-290" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-53" value="Search repo impl" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-290" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-54" value="Repositories impl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-73" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-64" target="wj-apMyxxMSm6NWcpxg7-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-74" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-64" target="wj-apMyxxMSm6NWcpxg7-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-87" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.617;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-64" target="wj-apMyxxMSm6NWcpxg7-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-88" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-64" target="wj-apMyxxMSm6NWcpxg7-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-89" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-64" target="wj-apMyxxMSm6NWcpxg7-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-64" value="Calendar repository" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-65" value="Repository for interacting with calendar. Contains methods: add(),&lt;br&gt;get(), remove(), getByPlant(id: Int), removeByPlant(id: Int)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-77" value="Ask repository to get Event from calendar by its id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="690" y="370" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-80" value="Ask repository to add Event to some calendar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-81" value="Get Events by Plant&#39;s id useCase" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-82" value="Ask repository to get all events related to Plant by Plant&#39;s id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="370" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-83" value="Remove Event useCase" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="830" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-84" value="Ask repository to remove Event from calendar by its id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="830" y="370" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-85" value="Remove Events by Plant&#39;s id useCase" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-86" value="Ask repository to remove all events related to Plant by Plant&#39;s id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="370" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-91" value="Gets in Context and initialize SharedPrefs, for transfer data uses json" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-210" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-92" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-330" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-93" value="DTO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-94" value="PlantListDto" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacing=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-290" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-95" value="Data class containing one field: plantList: List&amp;lt;Plant&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-210" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-98" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wj-apMyxxMSm6NWcpxg7-52" target="wj-apMyxxMSm6NWcpxg7-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-99" value="System calendar repo impl" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-290" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wj-apMyxxMSm6NWcpxg7-100" value="Works with system calendar.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-210" width="70" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
